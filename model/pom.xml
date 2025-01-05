@@ -9,25 +9,12 @@
         <version>1.0-SNAPSHOT</version>
     </parent>
 
-    <artifactId>main</artifactId>
+    <artifactId>model</artifactId>
 
     <properties>
         <maven.compiler.source>21</maven.compiler.source>
         <maven.compiler.target>21</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
-
-    <dependencies>
-        <dependency>
-            <groupId>eu.chrost</groupId>
-            <artifactId>math</artifactId>
-            <version>${parent.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>eu.chrost</groupId>
-            <artifactId>model</artifactId>
-            <version>${parent.version}</version>
-        </dependency>
-    </dependencies>
 
 </project>
