@@ -12,6 +12,7 @@
         <module>main</module>
         <module>math</module>
         <module>utils</module>
+        <module>model</module>
     </modules>
 
     <properties>
