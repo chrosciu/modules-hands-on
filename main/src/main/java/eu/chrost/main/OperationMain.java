@@ -11,7 +11,7 @@ class OperationMain {
         Logger logger = new Logger();
 
         for (Operation op : operations) {
-            logger.log(Integer.toString(op.apply(10, 5)));
+            logger.log(op.getClass().getSimpleName() + " " + op.apply(10, 5));
         }
     }
 }
