@@ -1,5 +1,6 @@
 package eu.chrost.main;
 
+import com.google.gson.Gson;
 import eu.chrost.math.Operation;
 import eu.chrost.utils.Logger;
 
@@ -22,5 +23,10 @@ class Main {
         nameField.setAccessible(true); // Uzyskanie dostępu refleksyjnego
         String name = (String) nameField.get(personInstance);
         System.out.println("Name: " + name);
+
+        Gson gson = new Gson();
+        Animal animal = new Animal();
+        String json = gson.toJson(animal);
+        System.out.println(json);
     }
 }
