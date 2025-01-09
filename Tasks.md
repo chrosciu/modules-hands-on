@@ -60,3 +60,16 @@ public interface Operation {
    **NOTE** : Do not export anything from the `eu.chrost.model` module.
 
 2. Using reflection only, try to create an object of the `Person` class and read the value of the `name` field in the `Main` class within the `eu.chrost.main` module.
+
+---
+
+**Task 5: Use external library as an automatic module**
+1. Add dependency to `Gson` library to project
+
+2. Create an `Animal` class within `eu.chrost.main` module with a single `String` field `name`.
+
+3. In the `Main` class within the `eu.chrost.main` module:
+   * create an instance of the `Animal` class
+   * serialize it to string with `Gson` library
+   * print the serialization result
+
